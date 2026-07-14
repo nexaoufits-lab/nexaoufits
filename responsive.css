@@ -1,0 +1,154 @@
+/* ==========================================================================
+   RESPONSIVE DESIGN (NEXA PREMIUM)
+   ========================================================================== */
+
+/* 1. TABLET LAYOUT (MAX-WIDTH: 1024px) */
+@media screen and (max-width: 1024px) {
+    .section-padding {
+        padding: 80px 0;
+    }
+
+    /* Categorías */
+    .categories-grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 15px;
+    }
+
+    .category-card {
+        height: 400px;
+    }
+
+    /* Tienda */
+    .products-grid {
+        grid-template-columns: repeat(3, 1fr);
+        gap: 20px;
+    }
+
+    /* Galería Instagram */
+    .instagram-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    /* Footer */
+    .footer-container {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 40px;
+    }
+}
+
+/* 2. MOBILE NAVIGATION & ACTIONS (MAX-WIDTH: 768px) */
+@media screen and (max-width: 768px) {
+    /* Header & Mobile Menú */
+    .hamburger {
+        display: flex;
+    }
+
+    .nav-menu {
+        position: fixed;
+        top: 0;
+        right: -100%;
+        width: 80%;
+        max-width: 350px;
+        height: 100vh;
+        background-color: #0D0D0D;
+        z-index: 1001;
+        display: flex;
+        align-items: center;
+        padding-left: 50px;
+        transition: var(--transition-smooth);
+        box-shadow: -10px 0 40px rgba(0, 0, 0, 0.4);
+    }
+
+    .nav-menu.active {
+        right: 0;
+    }
+
+    .nav-menu ul {
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .nav-link {
+        font-size: 1.1rem;
+        color: #FFFFFF !important;
+    }
+
+    /* Hero */
+    .hero-buttons {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .btn {
+        width: 100%;
+        text-align: center;
+    }
+
+    /* Tienda */
+    .products-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    /* Beneficios */
+    .benefits-grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 30px 20px;
+    }
+
+    /* Newsletter Form */
+    .newsletter-form {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    /* Carrito */
+    .cart-sidebar {
+        width: 100%;
+        right: -100%;
+    }
+}
+
+/* 3. MOBILE SMALL (MAX-WIDTH: 480px) */
+@media screen and (max-width: 480px) {
+    .section-header h2 {
+        font-size: 1.8rem;
+    }
+
+    /* Categorías */
+    .categories-grid {
+        grid-template-columns: 1fr;
+    }
+
+    /* Tienda */
+    .products-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .product-img-container {
+        height: 350px;
+    }
+
+    .shop-controls {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    /* Beneficios */
+    .benefits-grid {
+        grid-template-columns: 1fr;
+    }
+
+    /* Carrusel Colecciones */
+    .carousel-item {
+        min-width: 280px;
+    }
+
+    .carousel-item img {
+        height: 380px;
+    }
+
+    /* Footer */
+    .footer-container {
+        grid-template-columns: 1fr;
+    }
+}

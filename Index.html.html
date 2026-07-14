@@ -1,0 +1,396 @@
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NEXA | Own Your Style - Curated Premium Streetwear</title>
+    
+    <meta name="description" content="NEXA es tu espacio de streetwear premium y minimalista. Una selección exclusiva de las mejores marcas, cortes perfectos y calidad excepcional. Encuentra tu estilo.">
+    <meta name="keywords" content="NEXA, streetwear premium, moda urbana, lujo moderno, ropa multimarca, hoodies de marca, camisetas streetwear">
+    <meta name="author" content="NEXA Studio">
+    
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="NEXA | Own Your Style - Curated Premium Streetwear">
+    <meta property="og:description" content="Descubre nuestra cuidada selección de marcas de lujo moderno y moda urbana en NEXA. Estilo y autenticidad sin concesiones.">
+    <meta property="og:image" content="assets/images/og-nexa.jpg">
+    <meta property="og:url" content="https://nexa.store">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght=800;900&family=Poppins:wght=300;400;500;600&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+
+    <div id="loader" class="loader-container">
+        <div class="loader-content">
+            <span class="loader-logo">NEXA</span>
+            <div class="loader-bar"></div>
+        </div>
+    </div>
+
+    <header id="main-header" class="header-transparent">
+        <div class="header-container container">
+            <a href="#inicio" class="logo">NEXA</a>
+            
+            <nav class="nav-menu" id="nav-menu">
+                <ul>
+                    <li><a href="#inicio" class="nav-link active">Inicio</a></li>
+                    <li><a href="#tienda" class="nav-link">Tienda</a></li>
+                    <li><a href="#categorias" class="nav-link">Productos</a></li>
+                    <li><a href="#banner" class="nav-link">Nosotros</a></li>
+                    <li><a href="#newsletter" class="nav-link">Contacto</a></li>
+                </ul>
+            </nav>
+
+            <div class="header-actions">
+                <button id="search-trigger" aria-label="Buscar productos">
+                    <svg class="icon" viewBox="0 0 24 24"><path d="M15.5 14h-.79l-.28-.27C15.41 12.59 16 11.11 16 9.5 16 5.91 13.09 3 9.5 3S3 5.91 3 9.5 5.91 16 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"/></svg>
+                </button>
+                <button id="theme-toggle" aria-label="Cambiar modo de luz">
+                    <svg class="icon" viewBox="0 0 24 24"><path d="M12 3c-4.97 0-9 4.03-9 9s4.03 9 9 9 9-4.03 9-9c0-.46-.04-.92-.1-1.36-.98 1.37-2.58 2.26-4.4 2.26-2.98 0-5.4-2.42-5.4-5.4 0-1.81.89-3.42 2.26-4.4-.44-.06-.9-.1-1.36-.1z"/></svg>
+                </button>
+                <button id="cart-trigger" class="cart-btn" aria-label="Ver carrito">
+                    <svg class="icon" viewBox="0 0 24 24"><path d="M7 18c-1.1 0-1.99.9-1.99 2S5.9 22 7 22s2-.9 2-2-.9-2-2-2zM1 2v2h2l3.6 7.59-1.35 2.45c-.16.28-.25.61-.25.96 0 1.1.9 2 2 2h12v-2H7.42c-.14 0-.25-.11-.25-.25l.03-.12.9-1.63h7.45c.75 0 1.41-.41 1.75-1.03l3.58-6.49c.08-.14.12-.31.12-.48 0-.55-.45-1-1-1H5.21l-.94-2H1zm16 16c-1.1 0-1.99.9-1.99 2s.89 2 1.99 2 2-.9 2-2-.9-2-2-2z"/></svg>
+                    <span id="cart-count">0</span>
+                </button>
+                <button id="mobile-menu-trigger" class="hamburger" aria-label="Abrir menú">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <div id="search-overlay" class="search-overlay">
+        <div class="search-container">
+            <input type="text" id="search-input" placeholder="BUSCAR PRODUCTO O CATEGORÍA...">
+            <button id="search-close" class="close-btn">&times;</button>
+        </div>
+    </div>
+
+    <main>
+
+        <section id="inicio" class="hero-section">
+            <div class="hero-bg" style="background-image: url('https://images.unsplash.com/photo-1509631179647-0177331693ae?auto=format&fit=crop&w=1920&q=80');"></div>
+            <div class="hero-overlay"></div>
+            <div class="hero-content container">
+                <h1 class="hero-title animate-text">OWN YOUR STYLE.</h1>
+                <p class="hero-subtitle animate-text delay-1">Estética minimalista, curaduría de alta gama, actitud urbana. El mejor streetwear global reunido en un solo lugar.</p>
+                <div class="hero-buttons animate-text delay-2">
+                    <a href="#tienda" class="btn btn-primary">COMPRAR AHORA</a>
+                    <a href="#categorias" class="btn btn-outline">VER SELECCIÓN</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="categorias" class="categories-section section-padding scroll-reveal">
+            <div class="container">
+                <div class="section-header">
+                    <span class="subtitle">NUESTRO ENFOQUE</span>
+                    <h2>CATEGORÍAS</h2>
+                </div>
+                <div class="categories-grid">
+                    <div class="category-card" data-category="camisetas">
+                        <div class="card-img-wrap">
+                            <img data-src="https://images.unsplash.com/photo-1521572267360-ee0c2909d518?auto=format&fit=crop&w=800&q=80" alt="Camisetas NEXA" class="lazy-image">
+                        </div>
+                        <div class="card-overlay"></div>
+                        <div class="card-content">
+                            <h3>CAMISETAS</h3>
+                            <a href="#tienda" class="card-btn" data-filter="camisetas">VER SELECCIÓN</a>
+                        </div>
+                    </div>
+                    <div class="category-card" data-category="hoodies">
+                        <div class="card-img-wrap">
+                            <img data-src="https://images.unsplash.com/photo-1556821840-3a63f95609a7?auto=format&fit=crop&w=800&q=80" alt="Hoodies NEXA" class="lazy-image">
+                        </div>
+                        <div class="card-overlay"></div>
+                        <div class="card-content">
+                            <h3>HOODIES</h3>
+                            <a href="#tienda" class="card-btn" data-filter="hoodies">VER SELECCIÓN</a>
+                        </div>
+                    </div>
+                    <div class="category-card" data-category="pantalones">
+                        <div class="card-img-wrap">
+                            <img data-src="https://images.unsplash.com/photo-1541099649105-f69ad21f3246?auto=format&fit=crop&w=800&q=80" alt="Jeans NEXA" class="lazy-image">
+                        </div>
+                        <div class="card-overlay"></div>
+                        <div class="card-content">
+                            <h3>JEANS</h3>
+                            <a href="#tienda" class="card-btn" data-filter="pantalones">VER SELECCIÓN</a>
+                        </div>
+                    </div>
+                    <div class="category-card" data-category="accesorios">
+                        <div class="card-img-wrap">
+                            <img data-src="https://images.unsplash.com/photo-1576053139778-7e32f2ae3cfd?auto=format&fit=crop&w=800&q=80" alt="Accesorios NEXA" class="lazy-image">
+                        </div>
+                        <div class="card-overlay"></div>
+                        <div class="card-content">
+                            <h3>ACCESORIOS</h3>
+                            <a href="#tienda" class="card-btn" data-filter="accesorios">VER SELECCIÓN</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="tienda" class="shop-section section-padding scroll-reveal">
+            <div class="container">
+                <div class="section-header">
+                    <span class="subtitle">EXPLORA EL CATÁLOGO</span>
+                    <h2>NUESTROS PRODUCTOS</h2>
+                </div>
+
+                <div class="shop-controls">
+                    <div class="filter-group categories-filters">
+                        <button class="filter-btn active" data-filter="all">TODOS</button>
+                        <button class="filter-btn" data-filter="camisetas">CAMISETAS</button>
+                        <button class="filter-btn" data-filter="hoodies">HOODIES</button>
+                        <button class="filter-btn" data-filter="pantalones">JEANS</button>
+                        <button class="filter-btn" data-filter="accesorios">ACCESORIOS</button>
+                    </div>
+                    <div class="filter-group price-filters">
+                        <label for="price-range">PRECIO MÁXIMO: <span id="price-display">$150</span></label>
+                        <input type="range" id="price-range" min="30" max="150" step="5" value="150">
+                    </div>
+                </div>
+
+                <div class="products-grid" id="products-grid">
+                </div>
+            </div>
+        </section>
+
+        <section id="new-collection" class="carousel-section section-padding scroll-reveal">
+            <div class="container-fluid">
+                <div class="section-header container">
+                    <span class="subtitle">RECIÉN LLEGADO</span>
+                    <h2>NUEVOS PRODUCTOS</h2>
+                </div>
+                
+                <div class="carousel-container" id="carousel-container">
+                    <div class="carousel-track" id="carousel-track">
+                        <div class="carousel-item">
+                            <img data-src="https://images.unsplash.com/photo-1542272604-787c3835535d?auto=format&fit=crop&w=700&q=80" alt="Cargo Heavy Denim" class="lazy-image">
+                            <div class="carousel-info">
+                                <h4>CARGO HEAVY DENIM</h4>
+                                <span>$135.00</span>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img data-src="https://images.unsplash.com/photo-1620799140408-edc6dcb6d633?auto=format&fit=crop&w=700&q=80" alt="Oversized Hoodie Ash" class="lazy-image">
+                            <div class="carousel-info">
+                                <h4>OVERSIZED HOODIE ASH</h4>
+                                <span>$110.00</span>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img data-src="https://images.unsplash.com/photo-1503342217505-b0a15ec3261c?auto=format&fit=crop&w=700&q=80" alt="Raw Hem Tee White" class="lazy-image">
+                            <div class="carousel-info">
+                                <h4>RAW HEM TEE WHITE</h4>
+                                <span>$45.00</span>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img data-src="https://images.unsplash.com/photo-1618354691373-d851c5c3a990?auto=format&fit=crop&w=700&q=80" alt="Boxy Logo Tee Black" class="lazy-image">
+                            <div class="carousel-info">
+                                <h4>BOXY LOGO TEE BLACK</h4>
+                                <span>$50.00</span>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img data-src="https://images.unsplash.com/photo-1608231387042-66d1773070a5?auto=format&fit=crop&w=700&q=80" alt="NEXA Premium Sneakers" class="lazy-image">
+                            <div class="carousel-info">
+                                <h4>NEXA LUXURY SNEAKERS</h4>
+                                <span>$145.00</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="carousel-controls container">
+                    <button id="carousel-prev" class="carousel-arrow" aria-label="Anterior">&larr;</button>
+                    <button id="carousel-next" class="carousel-arrow" aria-label="Siguiente">&rarr;</button>
+                </div>
+            </div>
+        </section>
+
+        <section id="banner" class="banner-section">
+            <div class="banner-content scroll-reveal">
+                <h2>LAS MEJORES MARCAS.<br>EL MEJOR ESTILO.<br><span class="highlight-blue">OWN YOUR STYLE.</span></h2>
+                <a href="#tienda" class="btn btn-primary">COMPRAR AHORA</a>
+            </div>
+        </section>
+
+        <section id="beneficios" class="benefits-section section-padding container scroll-reveal">
+            <div class="benefits-grid">
+                <div class="benefit-card">
+                    <div class="benefit-icon">
+                        <svg class="icon" viewBox="0 0 24 24"><path d="M20 8h-3V4H3c-1.1 0-2 .9-2 2v11h2c0 1.66 1.34 3 3 3s3-1.34 3-3h6c0 1.66 1.34 3 3 3s3-1.34 3-3h2v-5l-3-4zM6 18.5c-.83 0-1.5-.67-1.5-1.5s.67-1.5 1.5-1.5 1.5.67 1.5 1.5-.67 1.5-1.5 1.5zm13.5-9l2.25 3H17V9.5h2.5zM18 18.5c-.83 0-1.5-.67-1.5-1.5s.67-1.5 1.5-1.5 1.5.67 1.5 1.5-.67 1.5-1.5 1.5z"/></svg>
+                    </div>
+                    <h3>ENVÍOS NACIONALES</h3>
+                    <p>Logística prioritaria de entrega exprés directa a tu puerta.</p>
+                </div>
+                <div class="benefit-card">
+                    <div class="benefit-icon">
+                        <svg class="icon" viewBox="0 0 24 24"><path d="M18 8h-1V6c0-2.76-2.24-5-5-5S7 3.24 7 6v2H6c-1.1 0-2 .9-2 2v10c0 1.1.9 2 2 2h12c1.1 0 2-.9 2-2V10c0-1.1-.9-2-2-2zm-6 9c-1.1 0-2-.9-2-2s.9-2 2-2 2 .9 2 2-.9 2-2 2zm3.1-9H8.9V6c0-1.71 1.39-3.1 3.1-3.1 1.71 0 3.1 1.39 3.1 3.1v2z"/></svg>
+                    </div>
+                    <h3>PAGO SEGURO</h3>
+                    <p>Transacciones cifradas de extremo a extremo con seguridad bancaria.</p>
+                </div>
+                <div class="benefit-card">
+                    <div class="benefit-icon">
+                        <svg class="icon" viewBox="0 0 24 24"><path d="M12 2L1 21h22L12 2zm0 3.99L19.53 19H4.47L12 5.99zM13 16h-2v2h2v-2zm0-6h-2v4h2v-4z"/></svg>
+                    </div>
+                    <h3>GARANTÍA ORIGINAL</h3>
+                    <p>Productos 100% auténticos seleccionados de marcas de confianza.</p>
+                </div>
+                <div class="benefit-card">
+                    <div class="benefit-icon">
+                        <svg class="icon" viewBox="0 0 24 24"><path d="M19 8l-4 4h3c0 3.31-2.69 6-6 6-1.01 0-1.97-.25-2.8-.7l-1.46 1.46C8.97 19.54 10.43 20 12 20c4.42 0 8-3.58 8-8h3l-4-4zM6 12c0-3.31 2.69-6 6-6 1.01 0 1.97.25 2.8.7l1.46-1.46C15.03 4.46 13.57 4 12 4c-4.42 0-8 3.58-8 8H1L5 16l4-4H6z"/></svg>
+                    </div>
+                    <h3>CAMBIOS FÁCILES</h3>
+                    <p>Política flexible de 30 días para devoluciones y cambios sin estrés.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="instagram-section section-padding scroll-reveal">
+            <div class="container">
+                <div class="section-header">
+                    <span class="subtitle">NUESTRO ESTILO EN REDES</span>
+                    <h2>CURATED BY NEXA</h2>
+                </div>
+                <div class="instagram-grid">
+                    <div class="insta-item">
+                        <img data-src="https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?auto=format&fit=crop&w=600&q=80" alt="Instagram NEXA 1" class="lazy-image">
+                        <div class="insta-hover"><span class="insta-handle">@nexa_oufits</span></div>
+                    </div>
+                    <div class="insta-item">
+                        <img data-src="https://images.unsplash.com/photo-1529139574466-a303027c1d8b?auto=format&fit=crop&w=600&q=80" alt="Instagram NEXA 2" class="lazy-image">
+                        <div class="insta-hover"><span class="insta-handle">@nexa_oufits</span></div>
+                    </div>
+                    <div class="insta-item">
+                        <img data-src="https://images.unsplash.com/photo-1507679799987-c73779587ccf?auto=format&fit=crop&w=600&q=80" alt="Instagram NEXA 3" class="lazy-image">
+                        <div class="insta-hover"><span class="insta-handle">@nexa_oufits</span></div>
+                    </div>
+                    <div class="insta-item">
+                        <img data-src="https://images.unsplash.com/photo-1492562080023-ab3db95bfbce?auto=format&fit=crop&w=600&q=80" alt="Instagram NEXA 4" class="lazy-image">
+                        <div class="insta-hover"><span class="insta-handle">@nexa_oufits</span></div>
+                    </div>
+                    <div class="insta-item">
+                        <img data-src="https://images.unsplash.com/photo-1483985988355-763728e1935b?auto=format&fit=crop&w=600&q=80" alt="Instagram NEXA 5" class="lazy-image">
+                        <div class="insta-hover"><span class="insta-handle">@nexa_oufits</span></div>
+                    </div>
+                    <div class="insta-item">
+                        <img data-src="https://images.unsplash.com/photo-1539109136881-3be0616acf4b?auto=format&fit=crop&w=600&q=80" alt="Instagram NEXA 6" class="lazy-image">
+                        <div class="insta-hover"><span class="insta-handle">@nexa_oufits</span></div>
+                    </div>
+                </div>
+                <div class="insta-btn-container">
+                    <a href="https://www.instagram.com/nexa_oufits?igsh=ZDVoNHdmbWtuMDhx&utm_source=qr" target="_blank" rel="noopener" class="btn btn-outline">SEGUIR EN INSTAGRAM</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="newsletter" class="newsletter-section section-padding scroll-reveal">
+            <div class="container newsletter-box">
+                <h2>¿TIENES PREGUNTAS O QUIERES COMPRAR?</h2>
+                <p>Déjanos tu número de WhatsApp aquí abajo y haz clic en el botón. Se abrirá un chat directo conmigo para asesorarte personalmente con tus prendas favoritas.</p>
+                
+                <form id="newsletter-form" class="newsletter-form" onsubmit="sendToWhatsApp(event)">
+                    <input type="tel" id="newsletter-phone" placeholder="TU WHATSAPP (Ejem: 3101234567)" required pattern="[0-9]{10}" aria-label="Ingresar número de WhatsApp">
+                    <button type="submit" class="btn btn-primary">CHATEAR AHORA</button>
+                </form>
+                <div id="newsletter-msg" class="form-feedback"></div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <div class="footer-container container">
+            <div class="footer-info">
+                <span class="footer-logo">NEXA</span>
+                <p>Tu destino premium de moda urbana. Curaduría estricta de las mejores prendas de streetwear con cortes atemporales y calidad asegurada.</p>
+            </div>
+            <div class="footer-links">
+                <h4>SOPORTE</h4>
+                <ul>
+                    <li><a href="#">Ayuda y Envíos</a></li>
+                    <li><a href="#">Devoluciones</a></li>
+                    <li><a href="#">Cuidado de Prendas</a></li>
+                    <li><a href="#">Términos de Servicio</a></li>
+                </ul>
+            </div>
+            <div class="footer-links">
+                <h4>NEXA STUDIO</h4>
+                <ul>
+                    <li><a href="#categorias">Colecciones</a></li>
+                    <li><a href="#banner">Nosotros</a></li>
+                    <li><a href="#">Sostenibilidad</a></li>
+                    <li><a href="#">Contacto</a></li>
+                </ul>
+            </div>
+            <div class="footer-social">
+                <h4>SÍGUENOS</h4>
+                <div class="social-icons">
+                    <a href="https://www.instagram.com/nexa_oufits?igsh=ZDVoNHdmbWtuMDhx&utm_source=qr" target="_blank" rel="noopener" aria-label="Instagram">IG</a>
+                    <a href="https://www.tiktok.com/@nexaurban?_r=1&_t=ZS-9821IoJuWI4" target="_blank" rel="noopener" aria-label="TikTok">TK</a>
+                    <a href="#" aria-label="YouTube">YT</a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom container">
+            <div class="payment-methods">
+                <span>VISA</span>
+                <span>MASTERCARD</span>
+                <span>AMEX</span>
+                <span>APPLE PAY</span>
+            </div>
+            <p class="copyright">&copy; 2026 NEXA. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+    <div id="cart-sidebar" class="cart-sidebar">
+        <div class="cart-header">
+            <h3>CARRITO (<span id="cart-sidebar-count">0</span>)</h3>
+            <button id="cart-close" class="close-btn">&times;</button>
+        </div>
+        <div id="cart-items" class="cart-items">
+            <div class="cart-empty-message">Tu carrito está vacío</div>
+        </div>
+        <div class="cart-footer">
+            <div class="cart-total">
+                <span>TOTAL:</span>
+                <span id="cart-total-price">$0.00</span>
+            </div>
+            <button id="checkout-btn" class="btn btn-primary w-100">PROCEDER AL PAGO</button>
+        </div>
+    </div>
+    <div id="cart-overlay" class="sidebar-overlay"></div>
+
+    <button id="scroll-top-btn" class="scroll-top-btn" aria-label="Ir arriba">
+        <svg class="icon" viewBox="0 0 24 24"><path d="M7.41 15.41L12 10.83l4.59 4.58L18 14l-6-6-6 6z"/></svg>
+    </button>
+
+    <script>
+        function sendToWhatsApp(event) {
+            event.preventDefault();
+            const clientPhone = document.getElementById('newsletter-phone').value;
+            
+            // El mensaje que se enviará automáticamente a tu número de WhatsApp
+            const message = `¡Hola NEXA! Vengo de la página web. Por favor, me gustaría recibir asesoría sobre las prendas. Mi número de contacto es: ${clientPhone}`;
+            
+            // Tu número de WhatsApp de destino con el código de país de Colombia (57)
+            const targetPhone = "573238330541"; 
+            const url = `https://wa.me/${targetPhone}?text=${encodeURIComponent(message)}`;
+            
+            window.open(url, '_blank');
+        }
+    </script>
+    <script src="js/main.js"></script>
+</body>
+</html>
